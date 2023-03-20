@@ -12,8 +12,11 @@ for (j = i + 1; j <= 57; j++)
 {
 putchar(i);
 putchar(j);
+if (i != 56)
+{
 putchar(44);
 putchar(32);
+}
 }
 }
 putchar('\n');
