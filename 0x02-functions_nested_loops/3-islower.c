@@ -1,4 +1,7 @@
 #include "main.h"
+/**
+ * _islower - returns 1 if letter is lowercase
+ */
 int _islower(int c)
 {
 if (c >= 97 && c <= 122)
