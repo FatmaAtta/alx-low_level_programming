@@ -11,6 +11,7 @@ _putchar(*s);
 s++;
 if (*s == '\0')
 {
+_putchar('\n');
 return;
 }
 else
