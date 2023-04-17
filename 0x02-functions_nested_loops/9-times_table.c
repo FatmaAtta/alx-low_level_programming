@@ -19,13 +19,15 @@ int first_digit = prod / 10;
 int last_digit = prod % 10;
 _putchar(first_digit + 48);
 _putchar(last_digit + 48);
+
 }
 else
 {
 _putchar(prod + 48);
-}
 _putchar(44);
 _putchar(32);
+_putchar(32);
+}
 }
 _putchar('\n');
 }
